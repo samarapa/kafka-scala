@@ -8,7 +8,7 @@ import org.apache.kafka.clients.producer.ProducerRecord
 /**
   * Created by samarapa on 2/27/2017.
   */
-object FirstProduceExample {
+object FirstProducerExample {
   def main(args: Array[String]) {
     val brokers = args(2);
     val props = new Properties();
